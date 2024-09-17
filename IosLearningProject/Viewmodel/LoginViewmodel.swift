@@ -27,8 +27,7 @@ class LoginViewmodel:ObservableObject{
             emailError = ""
         }
         
-        
-        if !emailPred.evaluate(with: email) {
+    if !emailPred.evaluate(with: email) {
             emailError = "Please enter a valid email address"
         return false
         }else{
@@ -43,6 +42,6 @@ class LoginViewmodel:ObservableObject{
        }else{
            passwordError = ""
        }
-                return true // No validation errors
+       return true // No validation errors
     }
 }

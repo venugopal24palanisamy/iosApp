@@ -9,5 +9,5 @@ import Foundation
 enum Screen {
     case landing
     case login
-    case home
+    case homeScreen
 }

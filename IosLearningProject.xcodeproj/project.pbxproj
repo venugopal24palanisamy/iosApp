@@ -22,6 +22,7 @@
 		C031F05C2C8B0BAC0098EA1D /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031F05B2C8B0BAC0098EA1D /* LandMark.swift */; };
 		C031F05E2C8B1D4F0098EA1D /* LandmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031F05D2C8B1D4F0098EA1D /* LandmarkItem.swift */; };
 		C031F0612C9012AC0098EA1D /* LoginViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031F0602C9012AC0098EA1D /* LoginViewmodel.swift */; };
+		C09AE9EA2C9993BC00DF658A /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AE9E92C9993B500DF658A /* AppDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C031F05B2C8B0BAC0098EA1D /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
 		C031F05D2C8B1D4F0098EA1D /* LandmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkItem.swift; sourceTree = "<group>"; };
 		C031F0602C9012AC0098EA1D /* LoginViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewmodel.swift; sourceTree = "<group>"; };
+		C09AE9E92C9993B500DF658A /* AppDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		C031F0302C86D2900098EA1D /* IosLearningProject */ = {
 			isa = PBXGroup;
 			children = (
+				C09AE9E82C9993AA00DF658A /* Utils */,
 				C00877512C94242B00DEA198 /* Model */,
 				C008774E2C9418DC00DEA198 /* Component */,
 				C00877492C92C8BE00DEA198 /* Screen */,
@@ -189,6 +192,14 @@
 				C031F0602C9012AC0098EA1D /* LoginViewmodel.swift */,
 			);
 			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		C09AE9E82C9993AA00DF658A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C09AE9E92C9993B500DF658A /* AppDefaults.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +338,7 @@
 				C031F0612C9012AC0098EA1D /* LoginViewmodel.swift in Sources */,
 				C031F05E2C8B1D4F0098EA1D /* LandmarkItem.swift in Sources */,
 				C00877502C9418FC00DEA198 /* ExpandedButton.swift in Sources */,
+				C09AE9EA2C9993BC00DF658A /* AppDefaults.swift in Sources */,
 				C008774D2C92C93A00DEA198 /* HomeScreen.swift in Sources */,
 				C031F0322C86D2900098EA1D /* IosLearningProjectApp.swift in Sources */,
 				C008774B2C92C8F900DEA198 /* LandingPage.swift in Sources */,

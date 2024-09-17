@@ -12,6 +12,8 @@ struct LoginScreen: View {
     @FocusState private var emailFieldIsFocused: Bool
     @FocusState private var passwordFieldIsFocused: Bool
     @ObservedObject var loginViewModel = LoginViewmodel()
+    
+    var onLoginButtonClick:(Screen)->Void
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 25).fill(.white)
@@ -63,13 +65,16 @@ struct LoginScreen: View {
     }
     
     func buttonAction() {
-        if (loginViewModel.validate()){}
+        if (loginViewModel.validate()){
+            AppDefaults.save(email: loginViewModel.email)
+            onLoginButtonClick(.homeScreen)
+        }
     }
     
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginScreen()
+        LoginScreen(onLoginButtonClick: {screen in })
     }
 }
