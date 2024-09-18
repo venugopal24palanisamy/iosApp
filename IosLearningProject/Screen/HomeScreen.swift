@@ -12,8 +12,8 @@ import SwiftUI
 struct HomeScreenWrapper: View {
     var body: some View {
         HomeScreen()
-            .navigationBarBackButtonHidden(true) // Hide back button to prevent pop to landing
-    }
+            .navigationBarBackButtonHidden(true)
+        }
 }
 
 
@@ -24,7 +24,11 @@ struct HomeScreen : View {
     var body: some View{
         TabView(selection: $selctedIndex) {
             VStack{
-                Text("Home").navigationTitle("Home")
+                if #available(iOS 17, *) {
+                    HomeTab()
+                } else {
+                    Text("Home")
+                }
             }.tabItem{
                Text("Home")
                 Image(systemName: "house.fill").renderingMode(.template)

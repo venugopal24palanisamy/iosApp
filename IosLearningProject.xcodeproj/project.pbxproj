@@ -23,6 +23,10 @@
 		C031F05E2C8B1D4F0098EA1D /* LandmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031F05D2C8B1D4F0098EA1D /* LandmarkItem.swift */; };
 		C031F0612C9012AC0098EA1D /* LoginViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031F0602C9012AC0098EA1D /* LoginViewmodel.swift */; };
 		C09AE9EA2C9993BC00DF658A /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AE9E92C9993B500DF658A /* AppDefaults.swift */; };
+		C09AE9EF2C9A9A2200DF658A /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AE9EE2C9A9A1800DF658A /* Places.swift */; };
+		C09AE9F12C9AB7E000DF658A /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AE9F02C9AB7DB00DF658A /* HomeTab.swift */; };
+		C09AE9F32C9AD73200DF658A /* PlacesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AE9F22C9AD72500DF658A /* PlacesItem.swift */; };
+		C09AE9F52C9AE5DE00DF658A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AE9F42C9AE5DA00DF658A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		C031F05D2C8B1D4F0098EA1D /* LandmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkItem.swift; sourceTree = "<group>"; };
 		C031F0602C9012AC0098EA1D /* LoginViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewmodel.swift; sourceTree = "<group>"; };
 		C09AE9E92C9993B500DF658A /* AppDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
+		C09AE9EE2C9A9A1800DF658A /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		C09AE9F02C9AB7DB00DF658A /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		C09AE9F22C9AD72500DF658A /* PlacesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesItem.swift; sourceTree = "<group>"; };
+		C09AE9F42C9AE5DA00DF658A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		C00877492C92C8BE00DEA198 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				C09AE9F42C9AE5DA00DF658A /* MapView.swift */,
+				C09AE9F02C9AB7DB00DF658A /* HomeTab.swift */,
 				C031F0332C86D2900098EA1D /* LoginScreen.swift */,
 				C008774A2C92C8F900DEA198 /* LandingPage.swift */,
 				C008774C2C92C93A00DEA198 /* HomeScreen.swift */,
@@ -111,6 +121,7 @@
 		C008774E2C9418DC00DEA198 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				C09AE9F22C9AD72500DF658A /* PlacesItem.swift */,
 				C008774F2C9418FC00DEA198 /* ExpandedButton.swift */,
 				C031F05D2C8B1D4F0098EA1D /* LandmarkItem.swift */,
 			);
@@ -120,6 +131,7 @@
 		C00877512C94242B00DEA198 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C09AE9EE2C9A9A1800DF658A /* Places.swift */,
 				C031F05B2C8B0BAC0098EA1D /* LandMark.swift */,
 			);
 			path = Model;
@@ -335,14 +347,18 @@
 				C031F05C2C8B0BAC0098EA1D /* LandMark.swift in Sources */,
 				C031F0342C86D2900098EA1D /* LoginScreen.swift in Sources */,
 				C00877482C92B9D300DEA198 /* AppNavigationView.swift in Sources */,
+				C09AE9F12C9AB7E000DF658A /* HomeTab.swift in Sources */,
 				C031F0612C9012AC0098EA1D /* LoginViewmodel.swift in Sources */,
 				C031F05E2C8B1D4F0098EA1D /* LandmarkItem.swift in Sources */,
 				C00877502C9418FC00DEA198 /* ExpandedButton.swift in Sources */,
+				C09AE9F52C9AE5DE00DF658A /* MapView.swift in Sources */,
 				C09AE9EA2C9993BC00DF658A /* AppDefaults.swift in Sources */,
 				C008774D2C92C93A00DEA198 /* HomeScreen.swift in Sources */,
 				C031F0322C86D2900098EA1D /* IosLearningProjectApp.swift in Sources */,
+				C09AE9F32C9AD73200DF658A /* PlacesItem.swift in Sources */,
 				C008774B2C92C8F900DEA198 /* LandingPage.swift in Sources */,
 				C00877442C92B7A700DEA198 /* Screen.swift in Sources */,
+				C09AE9EF2C9A9A2200DF658A /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

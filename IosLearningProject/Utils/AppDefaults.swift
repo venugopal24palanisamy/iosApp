@@ -14,7 +14,6 @@ struct AppDefaults {
         let email: String
     }
     
-    // Saves the user's name and job to UserDefaults
     static func save(email: String) {
         UserDefaults.standard.set([emailKey: email], forKey: userSessionKey)
     }

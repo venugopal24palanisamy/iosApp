@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
+@available(iOS 17, *)
 @main
 struct IosLearningProjectApp: App {
+
     var body: some Scene {
         WindowGroup {
             AppNavigationView()
         }
+        .modelContainer(for: Places.self)
     }
 }
